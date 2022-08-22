@@ -1,0 +1,44 @@
+.container{
+    max-width: 1300px;
+    margin: auto;
+}
+
+.nav-tabs a, .audence_chart_body a{
+    color: #d74b67;
+}
+.nav-tabs a:hover, .audence_chart_body a:hover{
+    color: #b61232;
+}
+
+canvas{
+    border: 1px solid #eee;
+}
+
+.audence_chart_body{
+    border: 1px solid #eee;
+}
+
+.charts{
+    display: none;
+}
+
+.charts.show{
+    display: block;
+}
+
+.records h4, .records p{
+    margin: 0 !important;
+}
+
+.records .card{
+    background-color: #e7edef;
+}
+
+.records .col-4{
+    padding: 0 1px;
+}
+
+.records_content div{
+    background-color: #e7edef;
+    margin: 0 1.5px;
+}
